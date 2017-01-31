@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.improlabs.godslave.teletalkwebapp">
+    package="com.itc.map">
     <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
@@ -14,7 +14,7 @@
             android:theme="@style/SplashTheme">
 
         </activity>
-        <activity android:name=".MainActivity"
+        <activity android:name="com.itc.map.MainActivity"
             android:windowSoftInputMode="adjustResize|stateHidden"
             android:configChanges="orientation|screenSize"
             android:launchMode="singleTask">
